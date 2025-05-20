@@ -1,4 +1,4 @@
-# Customer-Churn-Analysis-with-Power-BI
+# DEUTSCHE Bank Customer-Churn-Analysis-with-Power-BI
 
 ![image](https://github.com/user-attachments/assets/e82a2414-51b1-4ec8-9ee4-63d166748f30)
 
