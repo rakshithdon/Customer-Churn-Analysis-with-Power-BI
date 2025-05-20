@@ -1,6 +1,6 @@
 # Customer-Churn-Analysis-with-Power-BI
 
-![Screenshot 2025-05-20 161220](https://github.com/user-attachments/assets/9bbe5a7a-eca5-42c9-bd05-37e039c569f5)
+![image](https://github.com/user-attachments/assets/e82a2414-51b1-4ec8-9ee4-63d166748f30)
 
 
 # Problem Statement:
