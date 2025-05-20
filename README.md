@@ -104,9 +104,12 @@ Set relationships with many-to-one and one-to-many cardinality in the model tab.
 
 #### Snapshot of Not Churned Dashboard
 
+![image](https://github.com/user-attachments/assets/3f3d1fe7-3cc6-4006-b0bf-0a8c2f16afce)
 
 
 #### Snapshot of Churned Dashboard
+
+![image](https://github.com/user-attachments/assets/7c6b75a0-4710-474c-8dfd-993cb22ab820)
 
 
 ## Insights and Findings
