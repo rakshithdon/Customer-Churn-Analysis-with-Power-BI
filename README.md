@@ -41,7 +41,7 @@ The data for this project is a CSV file containing 1000 rows and 12 columns and 
 
 1. Imported the dataset into Power Query.
 2. Promoted the first row as headers.
-3. Removed unnecessary columns (e.g., estimated_salary).
+3. Removed null values and unnecessary columns (e.g., estimated_salary).
 4. Renamed steps and columns for clarity.
 5. Checked and updated data types.
 6. Replaced binary values with meaningful labels:
@@ -49,7 +49,7 @@ The data for this project is a CSV file containing 1000 rows and 12 columns and 
 8. Activity status: 1 → Active, 0 → Inactive.
 9. Churn status: 1 → Churned, 0 → Not Churned.
 
-### 2. Created Conditional Columns:
+### 2. Feature engineering
 
 1. Age Group: Categorized ages into groups.
 2. Credit Score Category: Classified credit scores.
@@ -63,3 +63,15 @@ The data for this project is a CSV file containing 1000 rows and 12 columns and 
 1. Created a reference table for Age Group containing distinct values.
 2. Created a reference query for Account Balance and removed duplicates.
 3. Created a reference query for Credit Score and removed duplicates.
+4. Created custom sort order columns — Age Group ID, Account Balance ID, and Credit Scores ID — to enable meaningful and user-defined sorting of Age Group, Account 
+  Balance, and Credit Scores in Power BI visualizations.
+
+### 2.Model Relationships:
+
+Set relationships with many-to-one and one-to-many cardinality in the model tab.
+
+### 3.Created Measures:
+
+1. Customers = COUNT('Bank Customer Data'[Customer ID])
+2. Customers Lost = CALCULATE(COUNT('Bank Customer Data'[Churn Status]), 'Bank Customer Data'[Churn Status] = "Churned")
+3. Churn Rate = 'Bank Customer Data'[Customers Lost] / 'Bank Customer Data'[Customers]
