@@ -149,3 +149,30 @@ Set relationships with many-to-one and one-to-many cardinality in the model tab.
 3. Account Balance:
 - High Churn Range: Customers with account balances between 100K-200K churn the most.
 - Low Churn Range: Balances below 10K or above 200K have significantly lower churn.
+
+
+## Recommendations
+
+#### Focus on High-Churn Segments:
+
+- Develop targeted retention strategies for inactive customers, customers with low credit scores (<600), and those in the mid-tier account balance range (100K-200K).
+
+#### Region-Specific Strategies:
+
+- Address Spain's slightly higher churn rate with localized incentives and loyalty programs.
+
+#### Product Strategy:
+
+- Investigate why Product 3 has low adoption and higher churn, and make necessary improvements.
+
+#### Tailored Engagement:
+
+- Design age-specific campaigns to engage customers aged 41-50, as they have the highest churn rate.
+
+#### Credit Score Programs:
+
+- Offer financial products or benefits to customers with low credit scores to improve retention.
+
+#### Snap of Dashboard
+
+![image](https://github.com/user-attachments/assets/c928801b-c277-4f65-8518-8e04591fd06b)
