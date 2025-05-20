@@ -37,3 +37,29 @@ The data for this project is a CSV file containing 1000 rows and 12 columns and 
 
 ## Data Collection and Preparation
 
+### 1. Connect, Clean, and Transform Data:
+
+1. Imported the dataset into Power Query.
+2. Promoted the first row as headers.
+3. Removed unnecessary columns (e.g., estimated_salary).
+4. Renamed steps and columns for clarity.
+5. Checked and updated data types.
+6. Replaced binary values with meaningful labels:
+7. Credit card: 1 → Owned, 0 → Not Owned.
+8. Activity status: 1 → Active, 0 → Inactive.
+9. Churn status: 1 → Churned, 0 → Not Churned.
+
+### 2. Created Conditional Columns:
+
+1. Age Group: Categorized ages into groups.
+2. Credit Score Category: Classified credit scores.
+3. Account Balance Category: Grouped balances.
+
+
+## Data Modeling
+
+### 1. Reference Tables:
+
+1. Created a reference table for Age Group containing distinct values.
+2. Created a reference query for Account Balance and removed duplicates.
+3. Created a reference query for Credit Score and removed duplicates.
